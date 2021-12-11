@@ -91,7 +91,11 @@ Testing dilakukan pada host Blueno dan Ciper dengan melakukan ping ke Doriki, ha
 
 **Blueno**
 
+![4  ping blueno](https://user-images.githubusercontent.com/74144561/145680175-ebb91a9e-55aa-403a-82dc-3a5e1293adcf.jpg)
+
 **Cipher**
+
+![4  ping cipher](https://user-images.githubusercontent.com/74144561/145680165-6473acec-033a-4a03-97a8-20442aea412c.jpg)
 
 ## Soal 5
 Akses dari subnet Elena dan Fukuro hanya diperbolehkan pada pukul 15.01 hingga pukul 06.59 setiap harinya.
@@ -100,7 +104,11 @@ Pertama - tama periksa dahulu waktu sistem saat ini, dan lakukan ```ping Doriki`
 
 **Elena**
 
+![5  ping elena](https://user-images.githubusercontent.com/74144561/145680168-2f8723fe-f4db-4df0-b728-1154985da656.jpg)
+
 **Fukurou**
+
+![5  ping fukurou](https://user-images.githubusercontent.com/74144561/145680169-07fc8231-e916-4668-944d-97a59b4fe1d3.jpg)
 
 ## Soal 6
 Karena kita memiliki 2 Web Server, Luffy ingin Guanhao disetting sehingga setiap request dari client yang mengakses DNS Server akan didistribusikan secara bergantian pada Jorge dan Maingate
@@ -126,6 +134,5 @@ service apache2 restart
 
 - Setelah kedua web server berhasil disiapkan, coba akses ke node Doriki (DNS Server) lewat salah satu node yang berhubungan langsung dengan router Guanhao (pada kasus ini digunakan node Elena) dengan menggunakan perintah ```curl 192.180.0.11```
 
-[gambar 6]
-
+![gambar 6](https://user-images.githubusercontent.com/74144561/145680171-07cc3573-58f1-4d33-959f-4c3d768af3a3.jpg)
 
