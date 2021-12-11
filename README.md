@@ -28,16 +28,24 @@ Masukkan perintah iptables berikut pada FOOSHA
 ping google.com dari setiap node untuk testing
 
 ***Blueno***
-[gambar ping google.com]
+
+![1  ping blueno](https://user-images.githubusercontent.com/75240358/145679400-5f207313-bbdf-43b7-8798-58c9ecb9514d.jpg)
+
 
 ***Cipher***
-[gambar ping google.com]
+
+![1  ping cipher](https://user-images.githubusercontent.com/75240358/145679402-07ce12c5-fe00-4569-aa35-02c6e13518fa.jpg)
+
 
 ***Elena***
-[gambar ping google.com]
+
+![1  ping elena](https://user-images.githubusercontent.com/75240358/145679404-41c5cc8e-097b-4d81-a140-788740e56038.jpg)
+
 
 ***Fukurou***
-[gambar ping google.com]
+
+![1  ping fukurou](https://user-images.githubusercontent.com/75240358/145679406-a431ca66-45ab-4cf5-9ebb-25829407bd62.jpg)
+
 
 ## Soal 2
 Kalian diminta untuk mendrop semua akses HTTP dari luar Topologi kalian pada server yang merupakan DHCP Server dan DNS Server demi menjaga keamanan.
@@ -46,7 +54,9 @@ Masukkan perintah iptables berikut pada WATER7
 ```iptables -A FORWARD -d 192.180.0.8/29 -p tcp --dport 80 -j DROP```
 
 Untuk testingnya, lakukan perintah ```nmap -p 80 192.180.0.10``` pada client. Disini kami menggunakan Blueno
-[gambar 2]
+
+![2](https://user-images.githubusercontent.com/75240358/145679426-dc824a10-1860-453f-9525-1eeaf18ededd.jpg)
+
 
 Kalau nanti outputnya port 80 ```filtered``` berarti berhasil ```iptables```-nya.
 
@@ -55,13 +65,24 @@ Karena kelompok kalian maksimal terdiri dari 3 orang. Luffy meminta kalian untuk
 
 Lakukan PING pada semua host yang ada secara bersamaan. Host terakhir yang dilakukan ping tidak akan bisa.
 
-**Ping Jipangu dari Blueno**
+**Ping Jipangu dari Blueno**!
 
-**Ping Jipangu dari Cipher**
+![3  ping jipangu blueno](https://user-images.githubusercontent.com/75240358/145679432-9f0a689e-b13f-49d2-b9d9-8eef0b797360.jpg)
 
-**Ping Jipangu dari Elena**
+
+**Ping Jipangu dari Cipher**!
+
+![3  ping jipangu cipher](https://user-images.githubusercontent.com/75240358/145679436-b4e9837c-d97e-48e9-9386-b46ffee95e25.jpg)
+
+
+**Ping Jipangu dari Elena**!
+
+![3  ping jipangu elena](https://user-images.githubusercontent.com/75240358/145679437-c449aed2-4e58-46b4-9df4-d207b8fe9dac.jpg)
+
 
 **Ping Jipangu dari Fukurou**
+
+![3  ping jipangu fukurou](https://user-images.githubusercontent.com/75240358/145679440-5c92cee9-88c3-4e9a-a4e3-020a7bb7602c.jpg)
 
 ## Soal 4
 Akses dari subnet Blueno dan Cipher hanya diperbolehkan pada pukul 07.00 - 15.00 pada hari Senin sampai Kamis.
